@@ -2,4 +2,8 @@
 <resources>
     <dimen name="heart_width">40dp</dimen>
     <dimen name="heart_height">40dp</dimen>
+    <dimen name="grid_height">650dp</dimen>
+    <dimen name="button_bottom_margin">20dp</dimen>
+    <dimen name="button_side_margin">40dp</dimen>
+    <dimen name="button_icon_size">35dp</dimen>
 </resources>
