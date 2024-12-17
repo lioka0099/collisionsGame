@@ -2200,6 +2200,9 @@ int dimen abc_text_size_subtitle_material_toolbar 0x7f06004e
 int dimen abc_text_size_title_material 0x7f06004f
 int dimen abc_text_size_title_material_toolbar 0x7f060050
 int dimen appcompat_dialog_background_inset 0x7f060051
+int dimen button_bottom_margin 0x7f060325
+int dimen button_icon_size 0x7f060326
+int dimen button_side_margin 0x7f060327
 int dimen cardview_compat_inset_shadow 0x7f060052
 int dimen cardview_default_elevation 0x7f060053
 int dimen cardview_default_radius 0x7f060054
@@ -2265,6 +2268,7 @@ int dimen disabled_alpha_material_light 0x7f06008f
 int dimen fastscroll_default_thickness 0x7f060090
 int dimen fastscroll_margin 0x7f060091
 int dimen fastscroll_minimum_range 0x7f060092
+int dimen grid_height 0x7f060328
 int dimen heart_height 0x7f060093
 int dimen heart_width 0x7f060094
 int dimen highlight_alpha_material_colored 0x7f060095

@@ -5,6 +5,10 @@
     <color name="button_orange">#ffb800</color>
     <color name="green_back">#C8E6C9</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="button_bottom_margin">20dp</dimen>
+    <dimen name="button_icon_size">35dp</dimen>
+    <dimen name="button_side_margin">40dp</dimen>
+    <dimen name="grid_height">650dp</dimen>
     <dimen name="heart_height">40dp</dimen>
     <dimen name="heart_width">40dp</dimen>
     <string name="app_name">Obsticles Game</string>

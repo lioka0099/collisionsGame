@@ -1,102 +1,106 @@
 [
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_wolf.png.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/wolf.png"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_heart_icon.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/heart_icon.xml"
     },
     {
         "merged": "com.example.obsticlesgame.app-debug-32:/layout_activity_main.xml.flat",
         "source": "com.example.obsticlesgame.app-main-34:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_game_over_back.png.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/game_over_back.png"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_nu_pogodi.jpg.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/nu_pogodi.jpg"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_game_over_back.png.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/game_over_back.png"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_rabbit.png.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/rabbit.png"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_arrow_left.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/arrow_left.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_rabbit.png.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/rabbit.png"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_arrow_right.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/arrow_right.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/xml_backup_rules.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/xml/backup_rules.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_arrow_right.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/arrow_right.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_heart_icon.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/heart_icon.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_nu_pogodi.jpg.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/nu_pogodi.jpg"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_wolf.png.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/wolf.png"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/layout_activity_game_over.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/layout/activity_game_over.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/layout_activity_game_over.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/layout/activity_game_over.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/xml/data_extraction_rules.xml"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/drawable_arrow_left.xml.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/drawable/arrow_left.xml"
     },
     {
-        "merged": "com.example.obsticlesgame.app-debug-32:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.obsticlesgame.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.obsticlesgame.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/lioka/.gradle/daemon/8.9/com.example.obsticlesgame.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
     }
 ]

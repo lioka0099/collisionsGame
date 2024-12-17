@@ -5,6 +5,10 @@ color button_green
 color button_orange
 color green_back
 color white
+dimen button_bottom_margin
+dimen button_icon_size
+dimen button_side_margin
+dimen grid_height
 dimen heart_height
 dimen heart_width
 drawable arrow_left

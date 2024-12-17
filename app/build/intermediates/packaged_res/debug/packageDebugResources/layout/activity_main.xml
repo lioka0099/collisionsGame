@@ -41,7 +41,7 @@
     <GridLayout
         android:id="@+id/game_grid"
         android:layout_width="match_parent"
-        android:layout_height="650dp"
+        android:layout_height="@dimen/grid_height"
         android:rowCount="8"
         android:columnCount="3"
         android:useDefaultMargins="true"
@@ -343,9 +343,9 @@
         android:clickable="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="40dp"
-        app:maxImageSize="35dp"
+        android:layout_marginBottom="@dimen/button_bottom_margin"
+        android:layout_marginLeft="@dimen/button_side_margin"
+        app:maxImageSize="@dimen/button_icon_size"
         android:backgroundTint="@color/button_green"
         app:srcCompat="@drawable/arrow_left" />
 
@@ -356,9 +356,9 @@
         android:clickable="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="40dp"
-        app:maxImageSize="35dp"
+        android:layout_marginBottom="@dimen/button_bottom_margin"
+        android:layout_marginRight="@dimen/button_side_margin"
+        app:maxImageSize="@dimen/button_icon_size"
         android:backgroundTint="@color/button_green"
         app:srcCompat="@drawable/arrow_right" />
 

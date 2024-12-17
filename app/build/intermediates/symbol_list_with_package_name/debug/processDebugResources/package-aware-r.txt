@@ -2201,6 +2201,9 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen appcompat_dialog_background_inset
+dimen button_bottom_margin
+dimen button_icon_size
+dimen button_side_margin
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -2266,6 +2269,7 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen grid_height
 dimen heart_height
 dimen heart_width
 dimen highlight_alpha_material_colored
