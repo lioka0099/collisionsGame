@@ -4,20 +4,22 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.GridLayout
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.lifecycle.lifecycleScope
+import com.example.obsticlesgame.utilities.Constants.GameGrid
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
+
 class MainActivity : AppCompatActivity() {
-    private var rabbitRow = 7
-    private var rabbitCol = 1
-    private var gameOver = false
-    private var collitionCounter = 0
+    private var rabbitRow : Int = GameGrid.RABBIT_START_ROW
+    private var rabbitCol : Int = GameGrid.RABBIT_START_COL
+    private var gameOver : Boolean = false
+    private var collisionCounter : Int = 0
+    private var gamePaused : Boolean = false
 
     private lateinit var main_IMG_hearts: Array<AppCompatImageView>
     private lateinit var main_GAME_GRID: Array<Array<AppCompatImageView>>
@@ -55,45 +57,40 @@ class MainActivity : AppCompatActivity() {
     private fun initViews() {
         main_GAME_GRID[rabbitRow][rabbitCol].setImageResource(R.drawable.rabbit)
         main_GAME_GRID[rabbitRow][rabbitCol].visibility = View.VISIBLE
-        main_BTN_left.setOnClickListener {View -> moveRabbitLeft()}
-        main_BTN_right.setOnClickListener {View -> moveRabbitRight()}
+        main_BTN_left.setOnClickListener { View -> moveRabbit(true) }
+        main_BTN_right.setOnClickListener { View -> moveRabbit(false) }
         spawnWolfs()
     }
 
-    private fun moveRabbitLeft() {
-        if (rabbitCol > 0) {
+    private fun moveRabbit(toLeft: Boolean) {
+        val newCol = if (toLeft) rabbitCol - 1 else rabbitCol + 1
+        if (newCol in 0 until GameGrid.COLS) {
             main_GAME_GRID[rabbitRow][rabbitCol].visibility = View.INVISIBLE
-            rabbitCol--
-            main_GAME_GRID[rabbitRow][rabbitCol].setImageResource(R.drawable.rabbit)
-            main_GAME_GRID[rabbitRow][rabbitCol].visibility = View.VISIBLE
-        }
-    }
-
-    private fun moveRabbitRight() {
-        if (rabbitCol < 2) {
-            main_GAME_GRID[rabbitRow][rabbitCol].visibility = View.INVISIBLE
-            rabbitCol++
+            rabbitCol = newCol
             main_GAME_GRID[rabbitRow][rabbitCol].setImageResource(R.drawable.rabbit)
             main_GAME_GRID[rabbitRow][rabbitCol].visibility = View.VISIBLE
         }
     }
 
     private fun spawnWolfs() {
-            timerJob = lifecycleScope.launch {
-                while(!gameOver){
-                    val currentCol = (0..2).random()
-                    main_GAME_GRID[0][currentCol].setImageResource(R.drawable.wolf)
-                    //top wolf
-                    main_GAME_GRID[0][currentCol].visibility = View.VISIBLE
-                    moveWolfs(currentCol)
-                    delay(2000)
-                }
+        if (::timerJob.isInitialized && timerJob.isActive) {
+            timerJob.cancel() // Cancel any existing coroutine to avoid duplication
+        }
+        timerJob = lifecycleScope.launch {
+            while (!gameOver) {
+                val currentCol = (0..2).random()
+                main_GAME_GRID[0][currentCol].setImageResource(R.drawable.wolf)
+                //top wolf
+                main_GAME_GRID[0][currentCol].visibility = View.VISIBLE
+                moveWolfs(currentCol)
+                delay(2000)
             }
+        }
     }
 
     private fun moveWolfs(currentCol: Int) {
         lifecycleScope.launch {
-            for (row in 1 until main_GAME_GRID.size) {
+            for (row in 1 until GameGrid.ROWS) {
                 main_GAME_GRID[row - 1][currentCol].visibility = View.INVISIBLE
                 main_GAME_GRID[row][currentCol].setImageResource(R.drawable.wolf)
                 main_GAME_GRID[row][currentCol].visibility = View.VISIBLE
@@ -113,19 +110,34 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun handleCollision() {
-        main_IMG_hearts[collitionCounter].visibility = View.INVISIBLE
-        collitionCounter++
+        if (gamePaused) return
+        main_IMG_hearts[collisionCounter].visibility = View.INVISIBLE
+        collisionCounter++
 
         SignalManager.getInstance().toast("The wolf ate you!")
         SignalManager.getInstance().vibration()
 
-        if (collitionCounter == 3) {
-            gameOver = true
-            val intent = Intent(this, GameOverActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+        if (collisionCounter == GameGrid.HEART_COUNT)
+            handleGameOver()
     }
 
+    private fun handleGameOver() {
+        gameOver = true
+        val intent = Intent(this, GameOverActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
 
+    override fun onPause() {
+        super.onPause()
+        timerJob.cancel()
+        gamePaused = true
+    }
+
+    override fun onResume() {
+        super.onResume()
+        gamePaused = false
+        if (!gameOver)
+            spawnWolfs()
+    }
 }
